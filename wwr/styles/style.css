@@ -39,8 +39,8 @@ header {
   text-decoration: none;
 }
 .join {
-  background-color: #889185;
-  color: #14213d;
+  background-color: black;
+  color: white;
   text-decoration: none;
 }
 .book:hover {
@@ -48,8 +48,8 @@ header {
   color: white;
 }
 .join:hover {
-  background-color: #14213d;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .msg {
   background-color: #889185;
