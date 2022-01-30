@@ -1,0 +1,47 @@
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+nav a {
+  text-align: center;
+}
+#hero_msg h1 {
+  text-align: center;
+}
+#hero_msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+#background {
+  height: 725px;
+  background-color: ;
+}
+body {
+  background-color: ;
+}
+header {
+  background-color: ;
+}
+.book {
+  background-color: ;
+}
+.join {
+  background-color: ;
+}
+.book:hover {
+  background-color: ;
+}
+.join:hover {
+  background-color: ;
+}
+.msg {
+  background-color: ;
+}
+footer {
+  background-color: ;
+}
