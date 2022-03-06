@@ -27,6 +27,11 @@ nav a:hover {
   grid-row: 1/3;
   z-index: -1;
 }
+#hero2-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
 #hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -150,6 +155,9 @@ footer a:hover {
 #hero-img {
   width: 100%;
 }
+#hero2-img {
+  width: 100%;
+}
 footer h3 a:hover {
   text-decoration: underline;
 }
@@ -255,4 +263,15 @@ footer .social img {
   footer {
     margin-top: 25px;
   }
+}
+.sub1 {
+  text-align: center;
+  font-size: 10px;
+}
+.aboutrivers {
+  grid-column: 2/3;
+  font-size: 2em;
+}
+.sub1head {
+  font-size: 2em;
 }
