@@ -2,6 +2,7 @@
 #content {
   max-width: 100%;
   margin: 0 auto;
+  display: grid;
 }
 nav {
   display: flex;
@@ -50,4 +51,8 @@ header {
   background-color: #6c5a49;
   color: white;
   padding: 35px;
+}
+footer .social img {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
