@@ -28,6 +28,11 @@ header {
   display: grid;
   grid-template-columns: 170px auto;
 }
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
 .logo {
   width: 150px;
   border-radius: 50%;
