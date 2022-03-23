@@ -8,6 +8,7 @@
     <title>Page 2</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
+  <section id="content2">
   <body>
     <header>
       <a id="logo_link" href="index.html">
@@ -21,26 +22,44 @@
     </header>
     <section>
       <p>Welcome to the page of my personally favorite yoyos.</p>
-      <p>
+      <p class="magicyoyotext">
         I really like the crystal from Magicyoyo because of how good it feels to
         play and because of how cheap it is.
       </p>
-      <p>
+      <p class="offsettext">
         I like likke the Omniscient from offset because it's a really good
         bi-metal yoyo. It is really expensive though.
       </p>
-      <img
-        src="images/magicyoyocrystal.jpg"
-        alt="Picture of magicyoyo crystal"
-      />
-      <img src="images/offsetyoyo.jpg" alt="Picture of the offset yoyo" />
+      <div class="index2images">
+        <img class="magicyoyopicture"
+          src="images/magicyoyocrystal.jpg"
+          alt="Picture of magicyoyo crystal"
+        />
+        <img class="offsetyoyopicture" 
+          src="images/offsetyoyo.jpg" 
+          alt="Picture of the offset yoyo" 
+        />
+      </div>
       <p>End of semester!!!!!</p>
       <p id="demo"></p>
     </section>
-    <footer>
-      <h3>Yoyo page &copy; 2022 - Zachary Hargraves</h3>
-      <h3><a href="site-plan.html">Site Plan</a></h3>
-    </footer>
+  </section>
+  <footer class="footer">
+    <h3>Yoyo page &copy; 2022 - Zachary Hargraves</h3>
+    <h3><a href="site-plan.html">Site Plan</a></h3>
+    <div class="social">
+      <a href="https://facebook.com" target="_blank">
+        <img src="images/facebook.png" alt="fb icon" />
+      </a>
+
+      <a href="https://twitter.png" target="_blank">
+        <img src="images/twitter.png" alt="twitter icon" />
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="images/instagram.png" alt="instagram icon" />
+      </a>
+    </div>
+  </footer>
     <script>
       // Set the date we're counting down to
       var countDownDate = new Date("April 7, 2022 15:0:0").getTime();
@@ -71,6 +90,6 @@
           document.getElementById("demo").innerHTML = "EXPIRED";
         }
       }, 1000);
-    </script>
+    </script>  
   </body>
 </html>

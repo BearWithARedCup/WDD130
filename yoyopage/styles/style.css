@@ -4,6 +4,11 @@
   margin: 0 auto;
   display: grid;
 }
+#content2 {
+  /* display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%; */
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -60,4 +65,23 @@ p {
 footer .social img {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.magicyoyopicture {
+  height: 800px;
+  width: 800px;
+  margin-left: 100px;
+  /* display: grid; */
+  /* grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%; */
+}
+.offsetyoyopicture {
+  height: 800px;
+  width: 800px;
+  margin-left: 800px;
+  /* display: grid; */
+  /* grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%; */
+}
+.magicyoyotext {
 }
