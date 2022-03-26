@@ -4,11 +4,6 @@
   margin: 0 auto;
   display: grid;
 }
-#content2 {
-  /* display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%; */
-}
 nav {
   display: flex;
   justify-content: space-around;
@@ -37,6 +32,8 @@ p {
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .logo {
   width: 150px;
@@ -53,6 +50,9 @@ p {
   display: flex;
   justify-content: space-around;
   font-size: 2em;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row: 5/6;
 }
 .footer a {
   color: white;
@@ -70,18 +70,10 @@ footer .social img {
 .magicyoyopicture {
   height: 800px;
   width: 800px;
-  margin-left: 100px;
-  /* display: grid; */
-  /* grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%; */
+  padding: 200px;
 }
 .offsetyoyopicture {
   height: 800px;
   width: 800px;
-  margin-left: 800px;
-  /* display: grid; */
-  /* grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%; */
-}
-.magicyoyotext {
+  padding: 200px;
 }
