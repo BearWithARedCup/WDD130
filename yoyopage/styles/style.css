@@ -3,6 +3,8 @@
   max-width: 100%;
   margin: 0 auto;
   display: grid;
+  /* grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%; */
 }
 nav {
   display: flex;
